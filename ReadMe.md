@@ -1,4 +1,4 @@
-# Your Web Application Name
+# TODO APP
 
 A web application for managing to-do lists with user accounts and authentication.
 
