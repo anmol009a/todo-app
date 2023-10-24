@@ -28,7 +28,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         if ($stmt->execute()) {
             // Successful signup
 
-            echo "Sign up successful. <a href='login.html'>Log in here</a>";
             $user_id = $stmt->insert_id;    // last insert id
 
             include './include/session.php';
